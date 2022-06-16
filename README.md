@@ -5,7 +5,7 @@
 Neste repositório estão listados todos os desafios concluídos ou em andamento realizados por mim em Javascript.
 
 # Em andamento
-
+> - Contagem de Palavras
 
 # Concluídos
-    - Cálculo de Fatorial
+> - Cálculo de Fatorial
