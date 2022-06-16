@@ -1,12 +1,9 @@
-function FirstFactorial(num) { 
-    for (let i = 0; i < num + 1; i++) {
-      const fatorial = [i];
-      console.table(fatorial);
-    }
-    // code goes here  
-    return num; 
-  
+function calculaFatorial(num) {      //Função que calcula o fatorial de qualquer número
+  let fatorial = num;                //Guarda o valor recebido pela função
+  for (let i = 1; i < num; i++) {    //Laço para a execução do fatorial
+    fatorial = fatorial * (num - i);
   }
-     
-  // keep this function call here 
-  console.log(FirstFactorial(1));
+  return fatorial;   
+}
+
+console.log(calculaFatorial(1));     //Chama a função calculaFatorial
